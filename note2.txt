@@ -1,2 +1,37 @@
 This note is for 2nd part of the lession.
+git branch = which check what branch does it have.
+
+git checkout branchname= which switch into the branch.
+
+git checkout -b branchname =which create a new branch and switch into it.
+
+ssh--keygen -t rsa  =  which generating a SSH Key.
+!!! It will replace the old one, if you have.!!!
+
+cat ~/.ssh/id_rsa.pub  =  check the Key.
+
+next step is link the key in the setting on github.com
+
+ssh -T git@github.com  = check it works or not.
+
+git remote add name(better be "origin") online_repository_SSH_Address
+
+git remote = check online repository.
+
+git push origin master:master  =  push local repository to github.
+
+git push --set-upstream origin local_name:online_name = link those two branch,
+so next time we know they are linked, we only need to "git push".
+
+-f means force push.
+
+git branch -vv = check the branch linked with any online branch.
+
+git clone Online_SSH_path local_dir. = copy the repository to local.
+
+git fetch [remote_name] [branch name] = get the online updates, but not merge yet.
+
+git pull = fetch + merge.
+
+
 
