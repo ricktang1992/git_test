@@ -1,0 +1,29 @@
+git log =  which checks the commit records.
+
+git status = check the status of git, we can see which file is not in index stage.
+git add . = which put all files and changes to index stage.
+
+git add file = which only put the file to index stage.
+
+git commit -m "message" = which commit the index stage into repository.
+
+ls = show files.
+
+ls -al = show all files under this dir.
+
+git log --pretty=oneline --all --graph --abbrev-commit = which show all the commit log with a short commit_id and each log is only one line.
+
+To avoid typing long commond line, there is a easy way to alias the code.
+steps： 1. create a file named ".bashrc" in Users folder.
+	2. edit "alias short_form = 'long_form' "
+	such as "alias git-log='git log --pretty=oneline --all --graph --abbrev-commit'"
+	3. save file.
+next time, I only need to type git-log rather than log form.
+
+touch file = create a file named "file".
+
+vi file = edit the file.
+
+cat file = check file.
+
+:wq in vi = save and quit
